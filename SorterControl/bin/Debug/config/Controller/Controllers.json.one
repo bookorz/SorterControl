@@ -1,0 +1,9 @@
+[
+{
+DeviceName:"RobotController01",
+DeviceType:"SanwaController",
+IPAdress:"127.0.0.1",
+Port:23,
+ConnectionType:"Socket"
+}
+]

@@ -1,0 +1,99 @@
+C:\Users\ethan_huang\source\repos\SorterControl\SorterControl\obj\Debug\SorterControl.Form1.resources
+C:\Users\ethan_huang\source\repos\SorterControl\SorterControl\obj\Debug\SorterControl.Properties.Resources.resources
+C:\Users\ethan_huang\source\repos\SorterControl\SorterControl\obj\Debug\SorterControl.csproj.GenerateResource.cache
+C:\Users\ethan_huang\source\repos\SorterControl\SorterControl\obj\Debug\SorterControl.csproj.CoreCompileInputs.cache
+C:\Users\ethan_huang\source\repos\SorterControl\SorterControl\bin\Debug\SorterControl.exe.config
+C:\Users\ethan_huang\source\repos\SorterControl\SorterControl\bin\Debug\SorterControl.exe
+C:\Users\ethan_huang\source\repos\SorterControl\SorterControl\bin\Debug\SorterControl.pdb
+C:\Users\ethan_huang\source\repos\SorterControl\SorterControl\bin\Debug\log4net.dll
+C:\Users\ethan_huang\source\repos\SorterControl\SorterControl\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ethan_huang\source\repos\SorterControl\SorterControl\bin\Debug\log4net.pdb
+C:\Users\ethan_huang\source\repos\SorterControl\SorterControl\bin\Debug\log4net.xml
+C:\Users\ethan_huang\source\repos\SorterControl\SorterControl\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ethan_huang\source\repos\SorterControl\SorterControl\obj\Debug\SorterControl.csproj.CopyComplete
+C:\Users\ethan_huang\source\repos\SorterControl\SorterControl\obj\Debug\SorterControl.exe
+C:\Users\ethan_huang\source\repos\SorterControl\SorterControl\obj\Debug\SorterControl.pdb
+C:\Users\ethan_huang\source\repos\SorterControl\SorterControl\obj\Debug\SorterControl.csprojResolveAssemblyReference.cache
+C:\Users\ethan_huang\source\repos\SorterControl\SorterControl\bin\Debug\SANWA.dll
+C:\Users\ethan_huang\source\repos\SorterControl\SorterControl\bin\Debug\SANWA.pdb
+C:\Users\BOOK\Desktop\repos\SorterControl\SorterControl\bin\Debug\SorterControl.exe.config
+C:\Users\BOOK\Desktop\repos\SorterControl\SorterControl\bin\Debug\SorterControl.exe
+C:\Users\BOOK\Desktop\repos\SorterControl\SorterControl\bin\Debug\SorterControl.pdb
+C:\Users\BOOK\Desktop\repos\SorterControl\SorterControl\bin\Debug\Newtonsoft.Json.dll
+C:\Users\BOOK\Desktop\repos\SorterControl\SorterControl\bin\Debug\SANWA.dll
+C:\Users\BOOK\Desktop\repos\SorterControl\SorterControl\bin\Debug\SANWA.pdb
+C:\Users\BOOK\Desktop\repos\SorterControl\SorterControl\bin\Debug\log4net.pdb
+C:\Users\BOOK\Desktop\repos\SorterControl\SorterControl\bin\Debug\log4net.xml
+C:\Users\BOOK\Desktop\repos\SorterControl\SorterControl\bin\Debug\Newtonsoft.Json.xml
+C:\Users\BOOK\Desktop\repos\SorterControl\SorterControl\obj\Debug\SorterControl.csprojResolveAssemblyReference.cache
+C:\Users\BOOK\Desktop\repos\SorterControl\SorterControl\obj\Debug\SorterControl.Form1.resources
+C:\Users\BOOK\Desktop\repos\SorterControl\SorterControl\obj\Debug\SorterControl.Properties.Resources.resources
+C:\Users\BOOK\Desktop\repos\SorterControl\SorterControl\obj\Debug\SorterControl.csproj.GenerateResource.cache
+C:\Users\BOOK\Desktop\repos\SorterControl\SorterControl\obj\Debug\SorterControl.csproj.CoreCompileInputs.cache
+C:\Users\BOOK\Desktop\repos\SorterControl\SorterControl\obj\Debug\SorterControl.csproj.CopyComplete
+C:\Users\BOOK\Desktop\repos\SorterControl\SorterControl\obj\Debug\SorterControl.exe
+C:\Users\BOOK\Desktop\repos\SorterControl\SorterControl\obj\Debug\SorterControl.pdb
+C:\Users\ethan_huang\source\repos\repos\SorterControl\SorterControl\bin\Debug\SorterControl.exe.config
+C:\Users\ethan_huang\source\repos\repos\SorterControl\SorterControl\bin\Debug\SorterControl.exe
+C:\Users\ethan_huang\source\repos\repos\SorterControl\SorterControl\bin\Debug\SorterControl.pdb
+C:\Users\ethan_huang\source\repos\repos\SorterControl\SorterControl\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ethan_huang\source\repos\repos\SorterControl\SorterControl\bin\Debug\SANWA.dll
+C:\Users\ethan_huang\source\repos\repos\SorterControl\SorterControl\bin\Debug\SANWA.pdb
+C:\Users\ethan_huang\source\repos\repos\SorterControl\SorterControl\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ethan_huang\source\repos\repos\SorterControl\SorterControl\obj\Debug\SorterControl.csprojResolveAssemblyReference.cache
+C:\Users\ethan_huang\source\repos\repos\SorterControl\SorterControl\obj\Debug\SorterControl.Form1.resources
+C:\Users\ethan_huang\source\repos\repos\SorterControl\SorterControl\obj\Debug\SorterControl.Properties.Resources.resources
+C:\Users\ethan_huang\source\repos\repos\SorterControl\SorterControl\obj\Debug\SorterControl.csproj.GenerateResource.cache
+C:\Users\ethan_huang\source\repos\repos\SorterControl\SorterControl\obj\Debug\SorterControl.csproj.CoreCompileInputs.cache
+C:\Users\ethan_huang\source\repos\repos\SorterControl\SorterControl\obj\Debug\SorterControl.csproj.CopyComplete
+C:\Users\ethan_huang\source\repos\repos\SorterControl\SorterControl\obj\Debug\SorterControl.exe
+C:\Users\ethan_huang\source\repos\repos\SorterControl\SorterControl\obj\Debug\SorterControl.pdb
+C:\Users\ethan_huang\Desktop\recipe2\SorterControl\SorterControl\bin\Debug\SorterControl.exe.config
+C:\Users\ethan_huang\Desktop\recipe2\SorterControl\SorterControl\bin\Debug\SorterControl.exe
+C:\Users\ethan_huang\Desktop\recipe2\SorterControl\SorterControl\bin\Debug\SorterControl.pdb
+C:\Users\ethan_huang\Desktop\recipe2\SorterControl\SorterControl\bin\Debug\log4net.dll
+C:\Users\ethan_huang\Desktop\recipe2\SorterControl\SorterControl\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ethan_huang\Desktop\recipe2\SorterControl\SorterControl\bin\Debug\SANWA.dll
+C:\Users\ethan_huang\Desktop\recipe2\SorterControl\SorterControl\bin\Debug\SANWA.pdb
+C:\Users\ethan_huang\Desktop\recipe2\SorterControl\SorterControl\bin\Debug\log4net.pdb
+C:\Users\ethan_huang\Desktop\recipe2\SorterControl\SorterControl\bin\Debug\log4net.xml
+C:\Users\ethan_huang\Desktop\recipe2\SorterControl\SorterControl\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ethan_huang\Desktop\recipe2\SorterControl\SorterControl\obj\Debug\SorterControl.csprojResolveAssemblyReference.cache
+C:\Users\ethan_huang\Desktop\recipe2\SorterControl\SorterControl\obj\Debug\SorterControl.Form1.resources
+C:\Users\ethan_huang\Desktop\recipe2\SorterControl\SorterControl\obj\Debug\SorterControl.Properties.Resources.resources
+C:\Users\ethan_huang\Desktop\recipe2\SorterControl\SorterControl\obj\Debug\SorterControl.csproj.GenerateResource.cache
+C:\Users\ethan_huang\Desktop\recipe2\SorterControl\SorterControl\obj\Debug\SorterControl.csproj.CoreCompileInputs.cache
+C:\Users\ethan_huang\Desktop\recipe2\SorterControl\SorterControl\obj\Debug\SorterControl.csproj.CopyComplete
+C:\Users\ethan_huang\Desktop\recipe2\SorterControl\SorterControl\obj\Debug\SorterControl.exe
+C:\Users\ethan_huang\Desktop\recipe2\SorterControl\SorterControl\obj\Debug\SorterControl.pdb
+C:\Users\MyUser\Desktop\新增資料夾 (2)\SorterControl\SorterControl\bin\Debug\SorterControl.exe.config
+C:\Users\MyUser\Desktop\新增資料夾 (2)\SorterControl\SorterControl\bin\Debug\SorterControl.exe
+C:\Users\MyUser\Desktop\新增資料夾 (2)\SorterControl\SorterControl\bin\Debug\SorterControl.pdb
+C:\Users\MyUser\Desktop\新增資料夾 (2)\SorterControl\SorterControl\bin\Debug\Newtonsoft.Json.dll
+C:\Users\MyUser\Desktop\新增資料夾 (2)\SorterControl\SorterControl\bin\Debug\SANWA.dll
+C:\Users\MyUser\Desktop\新增資料夾 (2)\SorterControl\SorterControl\bin\Debug\SANWA.pdb
+C:\Users\MyUser\Desktop\新增資料夾 (2)\SorterControl\SorterControl\bin\Debug\Newtonsoft.Json.xml
+C:\Users\MyUser\Desktop\新增資料夾 (2)\SorterControl\SorterControl\obj\Debug\SorterControl.csprojResolveAssemblyReference.cache
+C:\Users\MyUser\Desktop\新增資料夾 (2)\SorterControl\SorterControl\obj\Debug\SorterControl.Form1.resources
+C:\Users\MyUser\Desktop\新增資料夾 (2)\SorterControl\SorterControl\obj\Debug\SorterControl.Properties.Resources.resources
+C:\Users\MyUser\Desktop\新增資料夾 (2)\SorterControl\SorterControl\obj\Debug\SorterControl.csproj.GenerateResource.Cache
+C:\Users\MyUser\Desktop\新增資料夾 (2)\SorterControl\SorterControl\obj\Debug\SorterControl.csproj.CoreCompileInputs.cache
+C:\Users\MyUser\Desktop\新增資料夾 (2)\SorterControl\SorterControl\obj\Debug\SorterControl.exe
+C:\Users\MyUser\Desktop\新增資料夾 (2)\SorterControl\SorterControl\obj\Debug\SorterControl.pdb
+C:\Users\ethan_huang\source\repos\repos\SorterControl_改造\SorterControl\bin\Debug\SorterControl.exe.config
+C:\Users\ethan_huang\source\repos\repos\SorterControl_改造\SorterControl\bin\Debug\SorterControl.exe
+C:\Users\ethan_huang\source\repos\repos\SorterControl_改造\SorterControl\bin\Debug\SorterControl.pdb
+C:\Users\ethan_huang\source\repos\repos\SorterControl_改造\SorterControl\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ethan_huang\source\repos\repos\SorterControl_改造\SorterControl\bin\Debug\SANWA.dll
+C:\Users\ethan_huang\source\repos\repos\SorterControl_改造\SorterControl\bin\Debug\SANWA.pdb
+C:\Users\ethan_huang\source\repos\repos\SorterControl_改造\SorterControl\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ethan_huang\source\repos\repos\SorterControl_改造\SorterControl\obj\Debug\SorterControl.csprojResolveAssemblyReference.cache
+C:\Users\ethan_huang\source\repos\repos\SorterControl_改造\SorterControl\obj\Debug\SorterControl.Form1.resources
+C:\Users\ethan_huang\source\repos\repos\SorterControl_改造\SorterControl\obj\Debug\SorterControl.Properties.Resources.resources
+C:\Users\ethan_huang\source\repos\repos\SorterControl_改造\SorterControl\obj\Debug\SorterControl.csproj.GenerateResource.cache
+C:\Users\ethan_huang\source\repos\repos\SorterControl_改造\SorterControl\obj\Debug\SorterControl.csproj.CoreCompileInputs.cache
+C:\Users\ethan_huang\source\repos\repos\SorterControl_改造\SorterControl\obj\Debug\SorterControl.csproj.CopyComplete
+C:\Users\ethan_huang\source\repos\repos\SorterControl_改造\SorterControl\obj\Debug\SorterControl.exe
+C:\Users\ethan_huang\source\repos\repos\SorterControl_改造\SorterControl\obj\Debug\SorterControl.pdb
+C:\Users\ethan_huang\source\repos\repos\SorterControl\SorterControl\obj\Debug\SorterControl.AlarmFrom.resources
+C:\Users\MyUser\Desktop\新增資料夾 (2)\SorterControl\SorterControl\obj\Debug\SorterControl.AlarmFrom.resources
