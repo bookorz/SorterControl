@@ -28,7 +28,7 @@ namespace SorterControl
             almFrm.Show();
             almFrm.Visible = false;
             ThreadPool.SetMinThreads(10, 10);
-            
+
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -53,7 +53,7 @@ namespace SorterControl
 
         private void button3_Click(object sender, EventArgs e)
         {
-            
+
 
 
 
@@ -166,7 +166,7 @@ namespace SorterControl
 
         private void PortSetting1Active_ck_CheckedChanged(object sender, EventArgs e)
         {
-            
+
         }
 
         private void button1_Click_1(object sender, EventArgs e)
@@ -197,6 +197,14 @@ namespace SorterControl
             AutoIni_ck.Enabled = !IsLock;
             button3.Enabled = !IsLock;
             button4.Enabled = !IsLock;
+            LoadPort01Excute_bt.Enabled = !IsLock;
+            LoadPort02Excute_bt.Enabled = !IsLock;
+            LoadPort03Excute_bt.Enabled = !IsLock;
+            LoadPort04Excute_bt.Enabled = !IsLock;
+            LoadPort05Excute_bt.Enabled = !IsLock;
+            LoadPort06Excute_bt.Enabled = !IsLock;
+            LoadPort07Excute_bt.Enabled = !IsLock;
+            LoadPort08Excute_bt.Enabled = !IsLock;
         }
 
         private void button3_Click_1(object sender, EventArgs e)
@@ -233,16 +241,16 @@ namespace SorterControl
                         e.CellStyle.BackColor = Color.Red;
                         e.CellStyle.ForeColor = Color.White;
                         break;
-                   
+
                 }
             }
         }
 
-       
+
 
         private void AutoIni_ck_CheckedChanged(object sender, EventArgs e)
         {
-            
+
         }
 
         private void Reverse_ck_CheckedChanged(object sender, EventArgs e)
@@ -291,185 +299,74 @@ namespace SorterControl
 
         }
 
-      
+
 
         private void P4Value_tb_TextChanged(object sender, EventArgs e)
         {
 
         }
 
-    private void ConvertMethod(string m,ref Transaction txn)
-    {
+        private void ConvertMethod(string m, ref Transaction txn)
+        {
+
+
+        }
+
+
+        private void Excute_bt_Click(object sender, EventArgs e)
+        {
+            ((Button)sender).Enabled = false;
+            string PortName = ((Button)sender).Name.Replace("Excute_bt", "");
+
+
+            ComboBox cmd = this.Controls.Find(PortName + "Cmd_cb", true).FirstOrDefault() as ComboBox;
+
+            if (cmd.Text.Equals(""))
+            {
+                return;
+            }
+            Transaction txn = new Transaction(new List<Job>(), "", "", "", "", 30000);
+            switch (cmd.Text)
+            {
+                case "Load":
+                    txn.Method = Transaction.Command.LoadPortType.Load;
+                    break;
+                case "Mapping Load":
+                    txn.Method = Transaction.Command.LoadPortType.MappingLoad;
+                    break;
+                case "Mapping":
+                    txn.Method = Transaction.Command.LoadPortType.Mapping;
+                    break;
+                case "Unload":
+                    txn.Method = Transaction.Command.LoadPortType.Unload;
+                    break;
+                case "Mapping Unload":
+                    txn.Method = Transaction.Command.LoadPortType.MappingUnload;
+                    break;
+                case "GetMapping":
+                    txn.Method = Transaction.Command.LoadPortType.GetMapping;
+                    break;
+                case "GetLED":
+                    txn.Method = Transaction.Command.LoadPortType.GetLED;
+                    break;
+                case "GetStatus":
+                    txn.Method = Transaction.Command.LoadPortType.GetStatus;
+                    break;
+                case "Reset":
+                    txn.Method = Transaction.Command.LoadPortType.Reset;
+                    break;
+                case "Initial Pos":
+                    txn.Method = Transaction.Command.LoadPortType.InitialPos;
+                    break;
+                case "GetCount":
+                    txn.Method = Transaction.Command.LoadPortType.GetCount;
+                    break;
+            }
+
+            NodeManagement.Get(PortName).SendCommand(txn);
+        }
+
 
 
     }
-    private void P1Excute_bt_Click(object sender, EventArgs e)
-    {
-      if (P1Cmd_cb.Text.Equals(""))
-      {
-        return;
-      }
-        Transaction txn = new Transaction(new List<Job>(), "", "", "", "", 30000);
-      switch (P1Cmd_cb.Text)
-      {
-        case "Load":
-          txn.Method = Transaction.Command.LoadPortType.Load;
-          break;
-        case "Mapping":
-          txn.Method = Transaction.Command.LoadPortType.Mapping;
-          break;
-        case "Mapping Load":
-          txn.Method = Transaction.Command.LoadPortType.MappingLoad;
-          break;
-        case "Unload":
-          txn.Method = Transaction.Command.LoadPortType.Unload;
-          break;
-        case "Mapping Unload":
-          txn.Method = Transaction.Command.LoadPortType.MappingUnload;
-          break;
-        case "GetMapping":
-          txn.Method = Transaction.Command.LoadPortType.GetMapping;
-          break;
-        case "GetLED":
-          txn.Method = Transaction.Command.LoadPortType.GetLED;
-          break;
-        case "GetStatus":
-          txn.Method = Transaction.Command.LoadPortType.GetStatus;
-          break;
-        case "Reset":
-          txn.Method = Transaction.Command.LoadPortType.Reset;
-          break;
-        case "Initial Pos":
-          txn.Method = Transaction.Command.LoadPortType.InitialPos;
-          break;
-        case "GetCount":
-          txn.Method = Transaction.Command.LoadPortType.GetCount;
-          break;
-      }
-      
-      NodeManagement.Get("LoadPort01").SendCommand(txn);
-    }
-
-    private void P2Excute_bt_Click(object sender, EventArgs e)
-    {
-      if (P2Cmd_cb.Text.Equals(""))
-      {
-        return;
-      }
-      Transaction txn = new Transaction(new List<Job>(), "", "", "", "", 30000);
-      switch (P2Cmd_cb.Text)
-      {
-        case "Load":
-          txn.Method = Transaction.Command.LoadPortType.Load;
-          break;
-        case "Mapping Load":
-          txn.Method = Transaction.Command.LoadPortType.MappingLoad;
-          break;
-        case "Unload":
-          txn.Method = Transaction.Command.LoadPortType.Unload;
-          break;
-        case "Mapping Unload":
-          txn.Method = Transaction.Command.LoadPortType.MappingUnload;
-          break;
-        case "GetMapping":
-          txn.Method = Transaction.Command.LoadPortType.GetMapping;
-          break;
-        case "GetLED":
-          txn.Method = Transaction.Command.LoadPortType.GetLED;
-          break;
-        case "GetStatus":
-          txn.Method = Transaction.Command.LoadPortType.GetStatus;
-          break;
-        case "Reset":
-          txn.Method = Transaction.Command.LoadPortType.Reset;
-          break;
-        case "Initial Pos":
-          txn.Method = Transaction.Command.LoadPortType.InitialPos;
-          break;
-      }
-
-      NodeManagement.Get("LoadPort02").SendCommand(txn);
-    }
-
-    private void P3Excute_bt_Click(object sender, EventArgs e)
-    {
-      if (P3Cmd_cb.Text.Equals(""))
-      {
-        return;
-      }
-      Transaction txn = new Transaction(new List<Job>(), "", "", "", "", 30000);
-      switch (P3Cmd_cb.Text)
-      {
-        case "Load":
-          txn.Method = Transaction.Command.LoadPortType.Load;
-          break;
-        case "Mapping Load":
-          txn.Method = Transaction.Command.LoadPortType.MappingLoad;
-          break;
-        case "Unload":
-          txn.Method = Transaction.Command.LoadPortType.Unload;
-          break;
-        case "Mapping Unload":
-          txn.Method = Transaction.Command.LoadPortType.MappingUnload;
-          break;
-        case "GetMapping":
-          txn.Method = Transaction.Command.LoadPortType.GetMapping;
-          break;
-        case "GetLED":
-          txn.Method = Transaction.Command.LoadPortType.GetLED;
-          break;
-        case "GetStatus":
-          txn.Method = Transaction.Command.LoadPortType.GetStatus;
-          break;
-        case "Reset":
-          txn.Method = Transaction.Command.LoadPortType.Reset;
-          break;
-        case "Initial Pos":
-          txn.Method = Transaction.Command.LoadPortType.InitialPos;
-          break;
-      }
-
-      NodeManagement.Get("LoadPort03").SendCommand(txn);
-    }
-    private void P4Excute_bt_Click(object sender, EventArgs e)
-    {
-      if (P4Cmd_cb.Text.Equals(""))
-      {
-        return;
-      }
-      Transaction txn = new Transaction(new List<Job>(), "", "", "", "", 30000);
-      switch (P4Cmd_cb.Text)
-      {
-        case "Load":
-          txn.Method = Transaction.Command.LoadPortType.Load;
-          break;
-        case "Mapping Load":
-          txn.Method = Transaction.Command.LoadPortType.MappingLoad;
-          break;
-        case "Unload":
-          txn.Method = Transaction.Command.LoadPortType.Unload;
-          break;
-        case "Mapping Unload":
-          txn.Method = Transaction.Command.LoadPortType.MappingUnload;
-          break;
-        case "GetMapping":
-          txn.Method = Transaction.Command.LoadPortType.GetMapping;
-          break;
-        case "GetLED":
-          txn.Method = Transaction.Command.LoadPortType.GetLED;
-          break;
-        case "GetStatus":
-          txn.Method = Transaction.Command.LoadPortType.GetStatus;
-          break;
-        case "Reset":
-          txn.Method = Transaction.Command.LoadPortType.Reset;
-          break;
-        case "Initial Pos":
-          txn.Method = Transaction.Command.LoadPortType.InitialPos;
-          break;
-      }
-
-      NodeManagement.Get("LoadPort04").SendCommand(txn);
-    }
-  }
 }
